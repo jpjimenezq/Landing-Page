@@ -1,0 +1,83 @@
+body, .nav-link, .navbar-brand {
+    font-family: "Kanit", sans-serif;
+}
+
+.navbar-brand .d-flex {
+    justify-content: flex-start;
+}
+
+.nav-item .nav-link {
+    color: #000;
+}
+
+.nav-item .nav-link.active {
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    width: 32px;
+    height: 30px;
+}
+
+.title{
+    font-size: 3.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.contenido{
+    font-size: 1.2rem;
+}
+
+.principal img {
+    width: 40%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+.principal .texto {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 50px;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email{
+    margin-top: 2rem;
+}
+
+.email .input{
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.email .button{
+    border-radius: 20px;
+    padding: 5px 30px;
+    border: none;
+    color: white;
+    background-color: #04062c;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .principal img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .principal .texto {
+        margin-top: 5%;
+        margin-right: 0;
+    }
+    .principal{
+        flex-direction: column;
+    }
+}
